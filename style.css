@@ -1,11 +1,11 @@
 body{
    
     background-image:url(OIP.jpeg);
-    justify-content: center;
+    justify-content: auto;
     }
     
              font{ 
-                normal: 18pt arial;
+                font: normal 18pt arial;
              }
              input{
                 font: normal 18pt arial;
@@ -14,6 +14,10 @@ body{
     div#res{
         margin-top: 20 px;
     
+    }
+
+    div{
+        font: normal 18pt arial;
     }
     h1{
         position: relative;
