@@ -4,41 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somando Números</title>
-    
-    <style>
-body{
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
    
-background-image:url(OIP.jpeg);
-justify-content: center;
-}
-
-         font{ 
-            normal: 18pt arial;
-         }
-         input{
-            font: normal 18pt arial;
-            width:100px;
-         }
-div#res{
-    margin-top: 20 px;
-
-}
-h1{
-    position: relative;
-    padding-left: 20%;
-    border:40px;
-    box-shadow: gray;
-
-}       
-
-body{
-    position: absolute;
-    padding-left: 40%;
-    border:40px;
-
-}
-
-    </style>
 </head>
 <body>
 
@@ -52,20 +20,6 @@ body{
             <div id="res"><strong>Resultado</strong></div>
         </body>
   
-
-    <script>
-function somar() {
-     var tn1 = window.document.getElementById("txtn1")
-     var tn2 = window.document.getElementById("txtn2")
-     var res = window.document.getElementById("res")
-     var n1 = Number(tn1.value)
-     var n2 = Number(tn2.value)
-     var s= n1 + n2
-     res.innerHTML = `<strong>A soma entre ${n1} e ${n2} é igual a ${s}</strong>`
-
-     
-}
-    </script>
 </body>
 </html>
 ::

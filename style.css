@@ -1,0 +1,31 @@
+body{
+   
+    background-image:url(OIP.jpeg);
+    justify-content: center;
+    }
+    
+             font{ 
+                normal: 18pt arial;
+             }
+             input{
+                font: normal 18pt arial;
+                width:100px;
+             }
+    div#res{
+        margin-top: 20 px;
+    
+    }
+    h1{
+        position: relative;
+        padding-left: 20%;
+        border:40px;
+        box-shadow: gray;
+    
+    }       
+    
+    body{
+        position: absolute;
+        padding-left: 40%;
+        border:40px;
+    
+    }
